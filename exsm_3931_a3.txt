@@ -1,0 +1,36 @@
+FUNCTION: LaunchVendingMachine {
+    Interview engineers
+IF happy with candidate THEN
+    hire engineer
+ELSE THEN
+    interview another candidate
+ENDIF}
+    {Engineer builds vending machine
+IF happy with final product THEN
+    launch vending machine
+ELSE THEN 
+    Engineer solves issues
+ENDIF}
+{   Unlock machine
+    restock items
+    empty coin storage
+    lock machine
+REPEAT sequence everyday two days
+}
+
+
+FUNCTION: HungryCustomer {
+    I'm Hungry
+    arrive at vending machine
+    choose a snack
+IF I have enough money THEN
+    enter money into machine
+ELSE THEN
+    chooose another snack
+ENDIF
+}
+   {enter code for snack
+    pick up snack
+    retrieve change
+    eat my snack
+}
